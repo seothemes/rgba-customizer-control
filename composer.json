@@ -1,0 +1,13 @@
+{
+    "name": "seothemes/rgba-customizer-control",
+    "description": "Drop-in replacement for the stock WP color picker control.",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "seothemes",
+            "email": "info@seothemes.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
