@@ -10,7 +10,7 @@
   ],
   "minimum-stability": "dev",
   "require": {},
-  "autoload-dev": {
+  "autoload": {
     "psr-4": {
       "SEOThemes\\RgbaCustomizerControl\\": "src/"
     }
