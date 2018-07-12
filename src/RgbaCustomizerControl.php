@@ -68,7 +68,7 @@ class RGBA_Customizer_Control extends WP_Customize_Control {
 
 		wp_enqueue_script(
 			'rgba-customizer-control',
-			dirname( __FILE__ ) . '/rgba-customizer-control.js',
+			dirname( __DIR__ ) . 'resources/js/rgba-customizer-control.js',
 			array( 'jquery', 'wp-customizer-control' ),
 			'1.0.0',
 			true
@@ -76,7 +76,7 @@ class RGBA_Customizer_Control extends WP_Customize_Control {
 
 		wp_enqueue_style(
 			'rgba-customizer-control',
-			dirname( __FILE__ ) . '/rgba-customizer-control.css',
+			dirname( __DIR__ ) . 'resources/css/rgba-customizer-control.css',
 			array( 'wp-customizer-control' ),
 			'1.0.0'
 		);
