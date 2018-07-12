@@ -20,6 +20,8 @@
  * along with this Alpha Color Picker. If not, see <http://www.gnu.org/licenses/>.
  */
 
+namespace SEOThemes\RgbaCustomizerControl;
+
 /**
  * RGBA Color Picker Customizer Control
  *
@@ -28,7 +30,7 @@
  * convert between RGBa and Hex color values as opacity is
  * added to or removed from a color.
  */
-class RGBA_Customizer_Control extends WP_Customize_Control {
+class RgbaCustomizerControl extends \WP_Customize_Control {
 
 	/**
 	 * Official control name.
